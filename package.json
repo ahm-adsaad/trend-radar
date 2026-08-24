@@ -1,0 +1,17 @@
+{
+  "name": "trend-radar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-first trend detection for short-video platforms: pluggable signal sources, lifecycle staging, and an honesty-driven publishing layer.",
+  "type": "module",
+  "scripts": {
+    "demo": "tsx demo/run.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
